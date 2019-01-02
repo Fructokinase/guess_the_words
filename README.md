@@ -17,6 +17,9 @@ was used to generate 20 or so 6-lettered words called seeds. Using the 6 letters
 each seed then generates possible 3~5 lettered words by iterating through the whole dictionary of words.
 The seed that has the most solutions is chose to be used in the game.
 
+There are two threads in the driver; One of the game and one for the timer.
+
+
 # Interesting notices
 
 In general, how good word games are tightly relate to how well they 
@@ -24,5 +27,5 @@ can generate a set of words that are common enough for the average user to know.
 I couldn't find a good way to generate those words other than to manually curate the 
 solution set, which is both time costly and limiting in the solution universe
 
-There are two threads in the driver; One of the game and one for the timer.
+
 
